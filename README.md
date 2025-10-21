@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![VoiceCart Logo](./src/assets/images/logo-app.png)
+![VoiceCart Logo](./src/assets/images/logo-splashscreen.png)
 
 ### Belanja Lebih Mudah, Cukup dengan Suara! 🎤
 
