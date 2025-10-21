@@ -9,7 +9,7 @@ import { StatusBar } from 'react-native';
 const App = () => {
   return (
     <SafeAreaProvider>
-      <StatusBar barStyle="light-content" backgroundColor="#1a1a2e" />
+      <StatusBar barStyle="light-content" backgroundColor="#000000FF" />
       {/* TODO: Ganti dengan navigation atau screen utama Anda */}
       {/* <AppNavigator /> */}
     </SafeAreaProvider>
