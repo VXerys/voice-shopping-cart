@@ -1,103 +1,408 @@
 # 📅 Sprint Tracking - VoiceCartApp
 
-Update file ini setiap hari untuk tracking progress Anda!
+Update file ini setiap hari untuk tracking progress development!
+
+---
+
+## 📊 Sprint Velocity Overview
+
+**Purpose:** Track kecepatan development untuk improve estimation skill
+
+| Sprint | Planned SP | Completed SP | Velocity % | Carry Over | Notes |
+|--------|-----------|--------------|------------|------------|-------|
+| Sprint 1 | 8 | TBD | TBD | 0 | Foundation & UI |
+| Sprint 2 | TBD | TBD | TBD | TBD | Voice & Cart Logic |
+| Sprint 3 | TBD | TBD | TBD | TBD | Input & Storage |
+| Sprint 4 | TBD | TBD | TBD | TBD | Polish & Testing |
+
+**Average Velocity:** TBD (akan dihitung setelah Sprint 1)
+
+**Story Points Legend:**
+- 1 SP = ~1-2 hours (very simple)
+- 2 SP = ~2-4 hours (simple)
+- 3 SP = ~4-6 hours (medium)
+- 5 SP = ~6-8 hours (complex)
+- 8 SP = ~1-2 days (very complex, consider breaking down)
+
+---
+
+## 🎯 Definition of Done (DoD)
+
+Setiap task dianggap DONE ketika:
+
+### Code Quality:
+- ✅ Code follows project structure & conventions
+- ✅ TypeScript types properly defined
+- ✅ No console.log / commented code
+- ✅ ESLint warnings fixed
+- ✅ Code readable & self-documenting
+
+### Testing:
+- ✅ Unit tests written (for business logic)
+- ✅ Manual testing on device/emulator
+- ✅ No critical bugs
+- ✅ Edge cases handled
+
+### Documentation:
+- ✅ Complex logic has comments
+- ✅ README updated (if needed)
+- ✅ Sprint log updated
+
+### Git:
+- ✅ Conventional commit message
+- ✅ Branch up to date with master
+- ✅ Self-review done (wait 30min, review own code)
+- ✅ Ready to merge
 
 ---
 
 ## 📊 **SPRINT 1: Foundation & Core UI**
 
 **Sprint Goal:** Establish solid foundation with navigation, theme, and basic screen layouts  
-**Duration:** Day 1-7  
-**Status:** 🟡 In Progress / 🟢 Completed / 🔴 At Risk  
+**Duration:** Week 1 (Day 1-7)  
+**Status:** 🟡 In Progress
 
-### **Daily Progress**
+### Sprint Planning (Monday Morning)
 
-#### **Day 1: Monday** (Planning Day) ✅
+**Sprint Commitment:**
+
+| Task | Story Points | Priority | Assignee | Status |
+|------|-------------|----------|----------|--------|
+| TypeScript config fix | 1 | P0 | Solo | ⏳ Todo |
+| Splash screen | 2 | P0 | Solo | ⏳ Todo |
+| React Navigation setup | 3 | P0 | Solo | ⏳ Todo |
+| Theme system (colors, typography) | 2 | P0 | Solo | ⏳ Todo |
+| Home screen layout | 2 | P1 | Solo | ⏳ Todo |
+| Cart screen layout | 2 | P1 | Solo | ⏳ Todo |
+| Reusable components (Button, Card) | 3 | P1 | Solo | ⏳ Todo |
+
+**Total Story Points:** 15 SP  
+**Planned Completion:** 12-13 SP (realistic untuk sprint pertama)
+
+**Sprint Risks:**
+- React Navigation v6 might have breaking changes
+- Device testing might reveal platform-specific issues
+
+**Mitigation Plan:**
+- Check docs early, follow official guide
+- Test on both Android emulator & physical device  
+
+---
+
+### Daily Standup Log
+
+> **Solo Dev Standup:** Even working solo, daily check-in helps maintain focus & accountability!
+
+#### **Day 1: Monday** (Sprint Planning Day) ✅
 **Date:** ___/___/2025
 
-**Tasks Completed:**
-- [x] App icon update
+**Sprint Planning Session (30-60 min):**
+- ✅ Reviewed product backlog
+- ✅ Selected sprint backlog items
+- ✅ Estimated story points
+- ✅ Identified sprint goal
+- ✅ Planned daily tasks
+
+**Today's Work:**
+- [x] App icon update (already done!)
 - [x] Development environment check
+- [x] Sprint planning & task breakdown
 
-**Challenges:** None
+**Time Spent:** 2 hours
 
-**Notes:** Sprint started well!
-
----
-
-#### **Day 2: Tuesday**
-**Date:** ___/___/2025
-
-**Today's Focus:**
+**Tomorrow's Plan:**
 - [ ] TypeScript config fix
-- [ ] Splash screen implementation
+- [ ] Start splash screen implementation
 
-**Tasks Completed:**
-- [ ] Task 1
-- [ ] Task 2
+**Learnings/Notes:**
+- Sprint planning took longer than expected, but good for clarity
+- Feeling confident about sprint goal
 
-**Time Spent:** ___ hours
-
-**Challenges/Blockers:** (if any)
-
-**Notes:**
+**Mood:** 😊 Excited to start!
 
 ---
 
-#### **Day 3: Wednesday**
+#### **Day 2: Tuesday** (Daily Standup)
 **Date:** ___/___/2025
 
-**Today's Focus:**
-- [ ] React Navigation setup
-- [ ] Navigation structure
+**Daily Standup (Self Check-in - 5 min):**
+- **Yesterday:** Sprint planning, app icon done
+- **Today:** TypeScript fix, start splash screen
+- **Blockers:** None yet
+
+**Today's Tasks:**
+- [ ] Fix TypeScript deprecation warning (1 SP)
+- [ ] Create splash screen component (2 SP)
+- [ ] Add splash screen assets
+
+**Tasks Completed:**
+- [ ] TypeScript config - ignoreDeprecations
+- [ ] Splash screen base component
+- [ ] Logo asset integration
+
+**Time Spent:** ___ hours
+
+**Actual Story Points Completed:** ___ SP
+
+**Challenges/Blockers:**
+- (Document any issues faced)
+
+**Tomorrow's Plan:**
+- [ ] Complete splash screen
+- [ ] Start React Navigation setup
+
+**Learnings/Notes:**
+- (What did you learn today?)
+
+**Mood:** ___ (😊 Good / 😐 Okay / 😓 Struggling)
+
+---
+
+#### **Day 3: Wednesday** (Daily Standup)
+**Date:** ___/___/2025
+
+**Daily Standup (5 min):**
+- **Yesterday:** TypeScript fix, splash screen progress
+- **Today:** Navigation setup
+- **Blockers:** (if any)
+
+**Today's Tasks:**
+- [ ] React Navigation v6 installation (3 SP)
+- [ ] Configure navigation structure
+- [ ] Create stack navigator
+- [ ] Test navigation flow
 
 **Tasks Completed:**
 - [ ] Task 1
 - [ ] Task 2
+- [ ] Task 3
 
 **Time Spent:** ___ hours
+
+**Actual Story Points Completed:** ___ SP
+
+**Challenges/Blockers:**
+- (Document any issues)
+
+**Tomorrow's Plan:**
+- [ ] Theme system implementation
+- [ ] Color palette setup
+
+**Learnings/Notes:**
+- (React Navigation insights, issues solved, etc.)
+
+**Code Quality Check:**
+- [ ] Code follows conventions?
+- [ ] TypeScript types defined?
+- [ ] Tested on device?
+
+**Mood:** ___
+
+---
+
+#### **Day 4: Thursday** (Daily Standup)
+**Date:** ___/___/2025
+
+**Daily Standup (5 min):**
+- **Yesterday:** Navigation setup
+- **Today:** Theme system
+- **Blockers:** (if any)
+
+**Today's Tasks:**
+- [ ] Create theme/colors.ts (2 SP)
+- [ ] Create theme/typography.ts
+- [ ] Create theme/spacing.ts
+- [ ] Theme provider setup
+
+**Tasks Completed:**
+- [ ] Task 1
+- [ ] Task 2
+- [ ] Task 3
+
+**Time Spent:** ___ hours
+
+**Actual Story Points Completed:** ___ SP
 
 **Challenges/Blockers:**
 
-**Notes:**
-
----
-
-#### **Day 4: Thursday**
-**Date:** ___/___/2025
-
-**Today's Focus:**
-- [ ] Theme system
-- [ ] Reusable components (Button, Card, Input)
-
-**Tasks Completed:**
-- [ ] Task 1
-- [ ] Task 2
-
-**Time Spent:** ___ hours
-
-**Challenges/Blockers:**
-
-**Notes:**
-
----
-
-#### **Day 5: Friday**
-**Date:** ___/___/2025
-
-**Today's Focus:**
+**Tomorrow's Plan:**
 - [ ] Home screen layout
-- [ ] Cart screen layout
+- [ ] Reusable components
+
+**Learnings/Notes:**
+
+**Code Quality Check:**
+- [ ] Theme applied consistently?
+- [ ] Dark mode working?
+
+**Mood:** ___
+
+---
+
+#### **Day 5: Friday** (Daily Standup + Sprint Review Prep)
+**Date:** ___/___/2025
+
+**Daily Standup (5 min):**
+- **Yesterday:** Theme system complete
+- **Today:** Screen layouts, components
+- **Blockers:** (if any)
+
+**Today's Tasks:**
+- [ ] Home screen layout (2 SP)
+- [ ] Cart screen layout (2 SP)
+- [ ] Button component (1 SP)
+- [ ] Card component (1 SP)
 
 **Tasks Completed:**
 - [ ] Task 1
 - [ ] Task 2
+- [ ] Task 3
 
 **Time Spent:** ___ hours
 
+**Actual Story Points Completed:** ___ SP
+
 **Challenges/Blockers:**
 
-**Notes:**
+**Prepare for Sprint Review:**
+- [ ] Test all completed features
+- [ ] Take screenshots/screen recording
+- [ ] Prepare demo script
+- [ ] List what's done vs not done
+
+**Learnings/Notes:**
+
+**Code Quality Check:**
+- [ ] All components working?
+- [ ] UI matches design?
+- [ ] No console errors?
+
+**Mood:** ___
+
+---
+
+### Sprint Review (Friday Afternoon - 30-60 min)
+
+**Date:** ___/___/2025
+
+**Demo Preparation:**
+- [ ] Build works on device
+- [ ] Screenshots ready
+- [ ] Screen recording ready (optional)
+
+**What We Built (Demo Script):**
+1. Show splash screen with logo
+2. Navigate between screens
+3. Show theme system (colors, typography)
+4. Demo home & cart screen layouts
+5. Show reusable components
+
+**Sprint Results:**
+
+| Metric | Planned | Actual | Notes |
+|--------|---------|--------|-------|
+| Story Points | 12-13 | ___ | |
+| Velocity | - | ___% | |
+| Tasks Completed | 7 | ___ | |
+| Tasks Incomplete | 0 | ___ | |
+| Bugs Found | 0 | ___ | |
+
+**Completed Items:**
+- [ ] TypeScript config fix (1 SP)
+- [ ] Splash screen (2 SP)
+- [ ] React Navigation (3 SP)
+- [ ] Theme system (2 SP)
+- [ ] Home screen (2 SP)
+- [ ] Cart screen (2 SP)
+- [ ] Components (3 SP)
+
+**Incomplete Items (Moved to Sprint 2):**
+- [ ] Item 1 (reason: ___)
+- [ ] Item 2 (reason: ___)
+
+**Definition of Done Met?**
+- [ ] All code follows conventions
+- [ ] Manual testing passed
+- [ ] Documentation updated
+- [ ] Ready to merge
+
+**Demo Feedback (Self-assessment):**
+- What looks good: ___
+- What needs improvement: ___
+- User experience notes: ___
+
+**Screenshots/Video:**
+- Link: ___ (upload to GitHub issue or cloud storage)
+
+---
+
+### Sprint Retrospective (Friday Afternoon - 30 min)
+
+**Date:** ___/___/2025
+
+> **Purpose:** Reflect on what went well, what didn't, and how to improve next sprint
+
+#### What Went Well? 😊 (Keep doing)
+- Example: "TypeScript setup was smooth"
+- Example: "Theme system structure is very clean"
+- Your notes:
+  1. ___
+  2. ___
+  3. ___
+
+#### What Didn't Go Well? 😓 (Stop doing)
+- Example: "Estimated 2 hours but took 4 hours"
+- Example: "Forgot to test on device early"
+- Your notes:
+  1. ___
+  2. ___
+  3. ___
+
+#### What Can We Improve? 💡 (Start doing)
+- Example: "Break tasks into smaller chunks"
+- Example: "Test on device every day, not just Friday"
+- Your notes:
+  1. ___
+  2. ___
+  3. ___
+
+#### Process Improvements
+- **Estimation accuracy:** ___% (improve next sprint)
+- **Time management:** (what to adjust?)
+- **Code quality:** (any patterns to follow?)
+- **Testing:** (when to test more frequently?)
+
+#### Technical Learnings
+- React Navigation: ___
+- TypeScript: ___
+- React Native: ___
+- New tools/libraries: ___
+
+#### Action Items for Sprint 2
+- [ ] Action 1: ___ (Priority: High/Medium/Low)
+- [ ] Action 2: ___
+- [ ] Action 3: ___
+
+#### Personal Growth
+- Skills improved: ___
+- Challenges overcome: ___
+- What I'm proud of: ___
+- What I want to learn next: ___
+
+#### Sprint 2 Adjustments
+Based on retro, adjust next sprint:
+- Story points capacity: ___ SP (increase/decrease?)
+- Daily standup time: ___ (keep at 5min or adjust?)
+- Testing strategy: ___ (test more frequently?)
+- Break down tasks: ___ (smaller chunks?)
+
+**Overall Sprint Rating:** ___/10
+
+**Energy Level:** 😊 High / 😐 Medium / 😓 Low
+
+**Ready for Sprint 2?** ✅ Yes / ⏸️ Need break
+
+---
 
 ---
 
