@@ -18,6 +18,8 @@ export interface VoiceRecognitionResult {
 
 // Navigation types
 export type RootStackParamList = {
+  Splash: undefined;
+  Onboarding: undefined;
   Home: undefined;
   Cart: undefined;
   // Tambahkan screen lain di sini
