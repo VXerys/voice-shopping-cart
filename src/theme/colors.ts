@@ -1,34 +1,43 @@
 export const colors = {
   // Primary colors
-  primary: '#6c63ff',
-  primaryDark: '#5a52d5',
-  primaryLight: '#8e85ff',
+  primary: '#6C63FF',
+  primaryDark: '#5A52D5',
+  primaryLight: '#8E85FF',
 
   // Background colors
-  background: '#1a1a2e',
-  backgroundLight: '#16213e',
-  backgroundCard: '#0f3460',
+  background: '#1A1A2E',
+  backgroundLight: '#16213E',
+  backgroundCard: '#0F3460',
 
   // Text colors
-  text: '#ffffff',
-  textSecondary: '#a0a0a0',
-  textMuted: '#666666',
+  text: '#FFFFFF',
+  textSecondary: '#B0B0B0',
+  textMuted: '#9CA3AF',
+  textDisabled: '#6B7280',
 
   // Accent colors
-  accent: '#e94560',
-  success: '#00d9ff',
-  warning: '#ffa500',
-  error: '#ff4444',
+  accent: '#E94560',
+  success: '#00D9FF',
+  warning: '#FFA500',
+  error: '#FF4444',
 
   // Cart colors
-  cartEmpty: '#2d2d44',
-  cartItem: '#16213e',
+  cartEmpty: '#2D2D44',
+  cartItem: '#16213E',
 
   // Border and divider
-  border: '#2d2d44',
+  border: '#2D2D44',
   divider: '#333333',
 
+  // Dots indicator
+  dotActive: '#6C63FF',
+  dotInactive: '#4B5563',
+
+  // Shadow colors
+  shadow: '#6C63FF',
+
   // White and Black
-  white: '#ffffff',
+  white: '#FFFFFF',
   black: '#000000',
+  transparent: 'transparent',
 };

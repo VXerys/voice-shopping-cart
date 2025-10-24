@@ -6,6 +6,7 @@ import {
   ViewStyle,
   TextStyle,
 } from 'react-native';
+import {colors, spacing, typography} from '../../theme';
 
 interface ButtonProps {
   title: string;
@@ -24,8 +25,8 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   const getButtonStyle = (): ViewStyle => {
     const baseStyle: ViewStyle = {
-      paddingVertical: 14,
-      paddingHorizontal: 32,
+      paddingVertical: spacing.md,
+      paddingHorizontal: spacing.xl,
       borderRadius: 25,
       alignItems: 'center',
       justifyContent: 'center',
@@ -39,9 +40,9 @@ const Button: React.FC<ButtonProps> = ({
       case 'primary':
         return {
           ...baseStyle,
-          backgroundColor: disabled ? '#9CA3AF' : '#6C63FF',
+          backgroundColor: disabled ? colors.textMuted : colors.primary,
           elevation: 3,
-          shadowColor: '#6C63FF',
+          shadowColor: colors.shadow,
           shadowOffset: {width: 0, height: 4},
           shadowOpacity: 0.3,
           shadowRadius: 8,
@@ -49,14 +50,14 @@ const Button: React.FC<ButtonProps> = ({
       case 'outline':
         return {
           ...baseStyle,
-          backgroundColor: 'transparent',
+          backgroundColor: colors.transparent,
           borderWidth: 2,
-          borderColor: disabled ? '#9CA3AF' : '#6C63FF',
+          borderColor: disabled ? colors.textMuted : colors.primary,
         };
       case 'ghost':
         return {
           ...baseStyle,
-          backgroundColor: 'transparent',
+          backgroundColor: colors.transparent,
         };
       default:
         return baseStyle;
@@ -89,19 +90,19 @@ const Button: React.FC<ButtonProps> = ({
 
 const styles = StyleSheet.create({
   primaryText: {
-    fontSize: 16,
-    color: '#FFFFFF',
-    fontWeight: 'bold',
+    fontSize: typography.fontSize.base,
+    color: colors.white,
+    fontWeight: typography.fontWeight.bold,
   },
   outlineText: {
-    fontSize: 16,
-    color: '#6C63FF',
-    fontWeight: 'bold',
+    fontSize: typography.fontSize.base,
+    color: colors.primary,
+    fontWeight: typography.fontWeight.bold,
   },
   ghostText: {
-    fontSize: 16,
-    color: '#B0B0B0',
-    fontWeight: '500',
+    fontSize: typography.fontSize.base,
+    color: colors.textSecondary,
+    fontWeight: typography.fontWeight.medium,
   },
   disabled: {
     opacity: 0.5,

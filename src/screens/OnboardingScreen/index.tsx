@@ -11,6 +11,7 @@ import {
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {RootStackParamList} from '../../types';
 import Button from '../../components/Button';
+import {colors, spacing, typography} from '../../theme';
 
 type OnboardingScreenNavigationProp = NativeStackNavigationProp<
   RootStackParamList,
@@ -149,26 +150,26 @@ const OnboardingScreen: React.FC<Props> = ({navigation}) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#1A1A2E',
+    backgroundColor: colors.background,
   },
   slide: {
     width,
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingHorizontal: 30,
+    paddingHorizontal: spacing.lg + spacing.sm,
   },
   contentContainer: {
-    paddingTop: 80,
-    paddingBottom: 30,
+    paddingTop: spacing['3xl'] + spacing.md,
+    paddingBottom: spacing.lg + spacing.sm,
     alignItems: 'center',
   },
   title: {
-    fontSize: 28,
-    fontWeight: 'bold',
-    color: '#FFFFFF',
+    fontSize: typography.fontSize['3xl'],
+    fontWeight: typography.fontWeight.bold,
+    color: colors.text,
     textAlign: 'center',
-    paddingHorizontal: 20,
+    paddingHorizontal: spacing.lg - spacing.xs,
   },
   imageContainer: {
     flex: 1,
@@ -184,24 +185,24 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
-    marginBottom: 30,
+    marginBottom: spacing.lg + spacing.sm,
   },
   dot: {
     width: 10,
     height: 10,
     borderRadius: 5,
-    marginHorizontal: 6,
+    marginHorizontal: spacing.sm - spacing.xs,
   },
   activeDot: {
-    backgroundColor: '#3B82F6',
+    backgroundColor: colors.dotActive,
     width: 30,
   },
   inactiveDot: {
-    backgroundColor: '#4B5563',
+    backgroundColor: colors.dotInactive,
   },
   buttonContainer: {
-    paddingHorizontal: 20,
-    paddingBottom: 40,
+    paddingHorizontal: spacing.lg - spacing.xs,
+    paddingBottom: spacing.xl + spacing.sm,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
